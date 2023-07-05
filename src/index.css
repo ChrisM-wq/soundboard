@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* :root, body {
+   @apply bg-[#1e1e1e];
+} */
+
+
+
+.primary-button {
+  @apply bg-[#6285A5] rounded-md px-8 py-2 font-semibold flex gap-2 items-center justify-center;
+}
+
+.default-button {
+  @apply bg-[#D1D1D1] rounded-md px-8 py-2 font-semibold flex gap-2 items-center justify-center text-[#1e1e1e];
+}
