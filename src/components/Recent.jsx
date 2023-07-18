@@ -8,7 +8,7 @@ const Recent = () => {
     return (
         <div className="bg-black text-white flex justify-around h-96 items-center">
             <div className="flex flex-col gap-4">
-                <h3 className=" text-2xl font-semibold">Recently Rated</h3>
+                <h3 className=" text-4xl font-bold">Recently Rated</h3>
                 <p>Chris McHardy - great song!</p>
                 <div className="flex">
                     <FaStar color="#6285A5" size={"32px"}/>
